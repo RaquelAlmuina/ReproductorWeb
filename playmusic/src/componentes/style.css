@@ -88,7 +88,7 @@ body{
 }
 
 footer{
-    position: absolute;
+   
     bottom: 0;
     left: 0;
     height: fit-content;
@@ -100,6 +100,9 @@ footer{
     background-color: var(--dark);
     color: white;
     background-color: #121212;
+    position: fixed;
+  bottom: 0; 
+  clear: both;
 }
 
 .copyright-container{
