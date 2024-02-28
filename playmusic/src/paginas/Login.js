@@ -1,6 +1,7 @@
 import React from 'react';
 import './login.css';
 import NavbarLogin from '../componentes/NavbarLogin';
+import Footer from '../componentes/Footer';
 
 function Login() {
     return (
@@ -8,8 +9,20 @@ function Login() {
             <div>
             <NavbarLogin/>
             </div>
-            
+
+            <div className='content'>
+                <div className='left-col'>
+                        <h1>Música <br/> Para <br/> Todos</h1>
+                </div>
+                <div className='right-col'>
+                 <a2 href='#app'>Ingresa a SoundWave</a2>
+                </div>
+            </div>
+            <div>
+            <Footer/>
+            </div>
         </div>
+        
     );
 }
 
